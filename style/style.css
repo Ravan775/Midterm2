@@ -59,26 +59,25 @@ span{
 }
 
 .az {
-  position: absolute;
-  top: 30px;
-  left: -30%;
-  font-family: "Zilla Slab", serif;
-  cursor: pointer;
-  color: black;
+    position: absolute;
+    top: 30px;
+    left: -30%;
+    font-family: "Zilla Slab", serif;
+    cursor: pointer;
+    color: black;
 }
 
 .dil {
-  position: absolute;
-  top: 0;
-  left: 525px;
-  width: 50px;
-  height: 20px;
-  border-color: transparent;
-  background-color: transparent;
-  cursor: pointer;
-  font-family: "Zilla Slab", serif;
+    position: absolute;
+    top: 0;
+    left: 525px;
+    width: 50px;
+    height: 20px;
+    border-color: transparent;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: "Zilla Slab", serif;
 }
-
 
 .logo{
     width: 120px;
@@ -244,72 +243,72 @@ span{
 }
 
 .photo {
-  background-image: url(../img/photo.png);
-  background-position: center;
-  background-size: cover;
-  position: absolute;
-  height: 532px;
-  width: 700px;
-  right: 20%;
-  top: 1350px;
-  border-radius: 0px;
-  z-index: 2;
+    background-image: url(../img/photo.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    height: 532px;
+    width: 700px;
+    right: 20%;
+    top: 1350px;
+    border-radius: 0px;
+    z-index: 2;
 }
 
 .contain {
-  background-position: center;
-  background-size: cover;
-  position: absolute;
-  top: 1200px;
-  right: 40%;
-  width: 700px;
-  height: 532px;
-  background-color: white;
-  z-index: 3;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 1200px;
+    right: 40%;
+    width: 700px;
+    height: 532px;
+    background-color: white;
+    z-index: 3;
 }
 
 .contain2 {
-  background-position: center;
-  background-size: cover;
-  position: absolute;
-  top: 1200px;
-  right: 40%;
-  width: 700px;
-  height: 532px;
-  background-color: white;
-  box-shadow: 20px 20px 20px #DADADA;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 1200px;
+    right: 40%;
+    width: 700px;
+    height: 532px;
+    background-color: white;
+    box-shadow: 20px 20px 20px #DADADA;
 }
 
 .border1 {
-  background-image: url(../img/Rectangle\ 96.png);
-  position: absolute;
-  width: 760px;
-  height: 578px;
-  top: -4%;
-  left: -5%;
+    background-image: url(../img/Rectangle\ 96.png);
+    position: absolute;
+    width: 760px;
+    height: 578px;
+    top: -4%;
+    left: -5%;
 }
 
 .h2 {
-  width: 251px;
-  height: 43px;
-  font-family: "Zilla Slab";
-  font-size: 36px;
-  font-weight: 600;
-  line-height: 43px;
-  letter-spacing: 0em;
-  text-align: left;
+    width: 251px;
+    height: 43px;
+    font-family: "Zilla Slab";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
 .p {
-  position: absolute;
-  height: 336px;
-  width: 570px;
-  left: 3px;
-  top: 68px;
-  font-family: "Zilla Slab";
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 34px;
-  letter-spacing: 0em;
-  text-align: left;
+    position: absolute;
+    height: 336px;
+    width: 570px;
+    left: 3px;
+    top: 68px;
+    font-family: "Zilla Slab";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
 }
