@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner{
+    position: relative;
+    background-image: url(../img/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+}
+
+.account{
+    width: 300px;
+    height: 80px;
+    position: relative;
+    top: 0%;
+    right: -9.5%;
+    cursor: pointer;
+    float: left;
+    display: flex;
+    background: rgb(38, 38, 122);
+}
+
+.account::before{
+    content: "";
+    width: 50px;
+    height: 25px;
+    background-image: url(../img/Frame\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    float: left;
+    top: 37%;
+    left: 180px;
+}
+
+.navbar{
+    width: 84%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+span{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    left: 25px;
+}
+
+.az {
+  position: absolute;
+  top: 30px;
+  left: -30%;
+  font-family: "Zilla Slab", serif;
+  cursor: pointer;
+  color: black;
+}
+
+.dil {
+  position: absolute;
+  top: 0;
+  left: 525px;
+  width: 50px;
+  height: 20px;
+  border-color: transparent;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: "Zilla Slab", serif;
+}
+
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul {
+    width: 65%;
+    position: absolute;
+    top: 30px;
+    left: 35%;
+    border-bottom: 1px solid rgb(38, 38, 122);
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: "Zilla Slab";
+}
+
+.navbar ul li::after{
+    content: "";
+    height: 2px;
+    width: 0%;
+    background: #09E92E;
+    position: absolute  ;
+    top: 47px;
+    left: 0;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.content{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+
+.content h1{
+    font-size: 60px;
+    margin-top: 80px;
+    font-family: "Zilla Slab";
+}
+
+.content::before{
+    content: "";
+    height: 50px;
+    width: 50px;
+    background-image: url(../img/Group\ 1190.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 130px;
+    left: 8%;
+    cursor: pointer;
+}
+
+.content::after{
+    content: "";
+    height: 50px;
+    width: 50px;
+    background-image: url(../img/Group\ 1191.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 130px;
+    right: 8%;
+    cursor: pointer;
+}
+
+.page{
+    width: 10px;
+    height: 10px;
+    background: white;
+    position: relative;
+    display: flex;
+    float: left;
+    top: 800px;
+    left: 50%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.page::before{
+    content: "";
+    height: 10px;
+    width: 10px;
+    background:yellow;
+    position: absolute;
+    top: 0px;
+    left: -30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.page::after{
+    content: "";
+    height: 10px;
+    width: 10px;
+    background:white;
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.social{
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/IN.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    float: left;
+    top: 800px;
+    left: 10%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.social::before{
+    content: "";
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/FB.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: -50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.social::after{
+    content: "";
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/Group\ 318.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.photo {
+  background-image: url(../img/photo.png);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  height: 532px;
+  width: 700px;
+  right: 20%;
+  top: 1350px;
+  border-radius: 0px;
+  z-index: 2;
+}
+
+.contain {
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 1200px;
+  right: 40%;
+  width: 700px;
+  height: 532px;
+  background-color: white;
+  z-index: 3;
+}
+
+.contain2 {
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 1200px;
+  right: 40%;
+  width: 700px;
+  height: 532px;
+  background-color: white;
+  box-shadow: 20px 20px 20px #DADADA;
+}
+
+.border1 {
+  background-image: url(../img/Rectangle\ 96.png);
+  position: absolute;
+  width: 760px;
+  height: 578px;
+  top: -4%;
+  left: -5%;
+}
+
+.h2 {
+  width: 251px;
+  height: 43px;
+  font-family: "Zilla Slab";
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.p {
+  position: absolute;
+  height: 336px;
+  width: 570px;
+  left: 3px;
+  top: 68px;
+  font-family: "Zilla Slab";
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+}
